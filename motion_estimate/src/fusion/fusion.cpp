@@ -113,7 +113,7 @@ public:
       prep.listenForReady();
     }
 
-    std::string param_file_full = std::string(getConfigPath()) +'/' + std::string(param_file);
+    std::string param_file_full = std::string(std::string(param_file);
     if (param_file.empty()) { // get param from lcm
       param_file_full = "";
     }
@@ -235,7 +235,7 @@ public:
       }else{
         // urdf_file should now be the path from the models directory including the robot's named folder
         //std::string urdf_file = "atlas_v3/model_LH_RH.urdf";
-        std::string urdf_filename_full = std::string(getModelsPath()) + "/" + std::string( urdf_file );
+        std::string urdf_filename_full = std::string(std::string( urdf_file );
         model = new ModelClient( urdf_filename_full );
       }
       legodo_handler = new LegOdoHandler(front_end->lcm_recv, front_end->lcm_pub, front_end->param, model, front_end->frames);
