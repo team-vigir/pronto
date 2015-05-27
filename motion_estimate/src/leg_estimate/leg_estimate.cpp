@@ -465,8 +465,8 @@ contact_status_id leg_estimate::footTransition(){
       contact_status = F_RIGHT_NEW;
     }else{
       std::cout << "Foot Contact Error "<< foot_contact_logic_->getStandingFoot() << " (switch)\n";
-      int blah;
-      cin >> blah;
+      //int blah;
+      //cin >> blah;
     }
   }else{
     if ( foot_contact_logic_->getStandingFoot() == FOOT_LEFT ){
@@ -475,8 +475,8 @@ contact_status_id leg_estimate::footTransition(){
       contact_status = F_RIGHT_FIXED;
     }else{
       std::cout << "Foot Contact Error "<< foot_contact_logic_->getStandingFoot() << " \n";
-      int blah;
-      cin >> blah;
+      //int blah;
+      //cin >> blah;
     }
   }
 
