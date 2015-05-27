@@ -180,7 +180,7 @@ int foot_contact_classify::updateWalkingPhase (int64_t utime, bool left_contact,
     }else{
       std::cout << "Unknown LEFT_PRIME_RIGHT_STAND Transition: " << pv<< "\n";
       int blah;
-      cin >> blah;
+      //cin >> blah;
     }
   }
 
@@ -200,7 +200,7 @@ int foot_contact_classify::updateWalkingPhase (int64_t utime, bool left_contact,
     }else{
       std::cout << "Unknown LEFT_PRIME_RIGHT_BREAK Transition: " << pv<< "\n";
       int blah;
-      cin >> blah;
+      //cin >> blah;
     }
   }
 
@@ -220,7 +220,7 @@ int foot_contact_classify::updateWalkingPhase (int64_t utime, bool left_contact,
     }else{
       std::cout << "Unknown LEFT_PRIME_RIGHT_SWING Transition: " << pv<< "\n";
       int blah;
-      cin >> blah;
+      //cin >> blah;
     }
   }
 
@@ -235,7 +235,7 @@ int foot_contact_classify::updateWalkingPhase (int64_t utime, bool left_contact,
     }else{
       std::cout << "Unknown LEFT_PRIME_RIGHT_STRIKE Transition: " << pv<< "\n";
       int blah;
-      cin >> blah;
+      //cin >> blah;
     }
   }
 
@@ -258,7 +258,7 @@ int foot_contact_classify::updateWalkingPhase (int64_t utime, bool left_contact,
     }else{
       std::cout << "Unknown LEFT_STAND_RIGHT_PRIME Transition: " << pv<< "\n";
       int blah;
-      cin >> blah;
+      //cin >> blah;
     }
   }
 
@@ -277,7 +277,7 @@ int foot_contact_classify::updateWalkingPhase (int64_t utime, bool left_contact,
     }else{
       std::cout << "Unknown LEFT_BREAK_RIGHT_PRIME Transition: " << pv<< "\n";
       int blah;
-      cin >> blah;
+      //cin >> blah;
     }
   }
 
@@ -297,7 +297,7 @@ int foot_contact_classify::updateWalkingPhase (int64_t utime, bool left_contact,
     }else{
       std::cout << "Unknown LEFT_SWING_RIGHT_PRIME Transition: " << pv<< "\n";
       int blah;
-      cin >> blah;
+      //cin >> blah;
     }
   }
 
@@ -313,14 +313,14 @@ int foot_contact_classify::updateWalkingPhase (int64_t utime, bool left_contact,
     }else{
       std::cout << "Unknown LEFT_STRIKE_RIGHT_PRIME Transition: " << pv<< "\n";
       int blah;
-      cin >> blah;
+      //cin >> blah;
     }
   }
 
 
   std::cout << "Unknown fallthrough: " << mode_ << " > " << left_contact << " " << right_contact << "\n";
   int blah;
-  cin >> blah;
+  //cin >> blah;
   return -2;
 }
 
